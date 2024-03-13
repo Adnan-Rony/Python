@@ -1,18 +1,33 @@
 thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+
+print('no sorting ',thislist)
+
+
+
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
 thislist.sort()
 print(thislist)
 
 
 thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
 thislist.sort(reverse=True)
-print(thislist)
+print(thislist) 
 
 
 
 
 thislist = [100, 50, 65, 82, 23]
+
+print('no sorting ',thislist)
+
+
+thislist = [100, 50, 65, 82, 23]
 thislist.sort()
-print(thislist)
+print('number sort',thislist)
+
+thislist = [100, 50, 65, 82, 23]
+thislist.reverse()
+print('number reverse',thislist)
 
 
 
@@ -24,7 +39,8 @@ print(thislist)
     
 thislist = ["banana", "Orange", "KiWi", "cherry"]
 thislist.sort(key = str.lower)
-print(thislist)   
+print('key',thislist)
+   
     
 thislist = ["banana", "Orange", "Kiwi", "cherry"]
 thislist.reverse()

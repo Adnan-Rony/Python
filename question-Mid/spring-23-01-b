@@ -1,0 +1,22 @@
+
+
+
+def Number(list):
+    
+    # Create a copy of the original list
+    newNumber=list.copy()
+    
+    # Reverse the list
+    newNumber.reverse()
+    
+     # Sort the original list
+    NumberSort=sorted(list)
+    
+    return newNumber,NumberSort
+
+list = [181, 178, 187, 182, 192, 189, 202, 201]
+
+reverse,sortedNumber=Number(list)
+print('orginal ',list)
+print('reverse ',reverse)
+print('sorted ',sortedNumber)

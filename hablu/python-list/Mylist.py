@@ -10,9 +10,10 @@ print(type(list))
 print(list)
 
 list.append("bony")
-print(list)
+print('add bony',list)
 
 
-fruits = ['apple', 'banana', 'cherry', 'orange']
+fruits = ['apple','cherry', 'banana', 'orange']
 
 x = fruits.sort()
+print('sorted ',fruits)
