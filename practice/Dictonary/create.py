@@ -10,11 +10,11 @@ thisdict = {
 
 
 # keys = thisdict.keys()
-# print('key ',keys)
+print('key ',thisdict.keys())
 
 
 # values = thisdict.values()
-# print('key ',values)
+print('key ',thisdict.values())
 
 
 
